@@ -1,0 +1,8 @@
+﻿{
+	"Interval":"86400000",
+	"SenderMail":"",
+	"SenderPassword":"",
+	"RecipientMail":"",
+	"SmtpHost":"",
+	"SmtpPort":"587"
+}
