@@ -96,7 +96,7 @@ bool Working = false;
 
 Console.CancelKeyPress += (sender, e) =>
 {
-	if (!Working)
+	if (Working)
 	{
 		Console.WriteLine("Application processing data, please try again later.");
 		e.Cancel = true;
